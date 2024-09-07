@@ -2,6 +2,12 @@
 
 Este projeto implementa uma simulação de um dispositivo iPhone, que possui as funcionalidades de um **aparelho telefônico**, um **navegador de internet** e um **reprodutor musical**. A classe `iphone` implementa três interfaces: `AparelhoTelefonico`, `NavegadorInternet` e `ReprodutorMusical`.
 
+## Diagrama UML
+
+Abaixo está o diagrama UML da estrutura do projeto:
+
+![Diagrama UML](./uml.png)
+
 ## Funcionalidades
 
 ### 1. Aparelho Telefônico
@@ -18,17 +24,3 @@ Este projeto implementa uma simulação de um dispositivo iPhone, que possui as 
 - **Tocar**: Inicia a reprodução de uma música.
 - **Pausar**: Pausa a reprodução da música atual.
 - **Escolher Música**: Escolhe uma música específica para reproduzir.
-
-## Estrutura do Projeto
-
-```plaintext
-.
-├── src/
-│   └── system/
-│       ├── AparelhoTelefonico.java
-│       ├── NavegadorInternet.java
-│       ├── ReprodutorMusical.java
-│       ├── iphone.java
-│       └── App.java
-├── README.md
-└── .gitignore
